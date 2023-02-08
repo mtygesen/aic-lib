@@ -1,2 +1,2 @@
-# algorithms-in-cpp
-Algorithms In C++
+# Algoritms In C++
+This repository includes algorithms created in c++

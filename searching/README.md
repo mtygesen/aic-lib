@@ -16,7 +16,7 @@ SentinelSearch<T>(v, key);
 
 ## Example Usage
 ```cpp
-#include "searching/searching.hpp"
+#include "algorithms-in-cpp/searching/searching.hpp"
 
 int main() {
 

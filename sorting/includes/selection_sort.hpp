@@ -10,7 +10,7 @@ template <class T> std::vector<T> SelectionSort(std::vector<T>& v) {
 
         for (int j = i + 1; j < v.size(); ++j) {
             if (arr[j] < arr[min]) {
-                min =  j;
+                min = j;
             }
         }
 

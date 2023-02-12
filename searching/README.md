@@ -13,7 +13,6 @@ int main() {
 
   int value = 3;
   
-  linearSearch<int>(vec, value); // => 2
   binarySearch<int>(vec, value); // => 2
 
   return 0;

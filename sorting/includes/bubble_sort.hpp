@@ -2,18 +2,18 @@
 #define bubble_sort
 
 #include <vector>
-#include "swap.hpp"
+#include <algorithm>
 
 template <class T> void BubbleSort(std::vector<T>& v) {
     bool flag;
 
-    for (int i = 1; i < v.size() - i; ++i) {
+    for (int i = 1; i < v.size(); ++i) {
 
         flag = false;
 
-        for (int j = 0; j <= (n - i - 1); ++j) {
+        for (int j = 0; j < v.size() - i; ++j) {
             if (v[j] > v[j + 1]) {
-                Swap(&v[j], &v[j + 1]);
+                std::swap(v[j], v[j + 1]);
                 flag = true;
             }
         }

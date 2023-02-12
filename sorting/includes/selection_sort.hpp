@@ -2,7 +2,7 @@
 #define selection_sort
 
 #include <vector>
-#include "swap.hpp"
+#include <algorithm>
 
 template <class T> void SelectionSort(std::vector<T>& v) {
     for (int i = 0; i < v.size() - 1; ++i) {
@@ -15,7 +15,7 @@ template <class T> void SelectionSort(std::vector<T>& v) {
         }
 
         if (min != i) {
-            Swap(&v[min], &v[i]);
+            std::swap(v[min], v[i]);
         }
     }
 }

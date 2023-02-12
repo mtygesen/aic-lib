@@ -1,5 +1,5 @@
-#ifndef linear_search
-#define linear_search
+#ifndef sentinel_search
+#define sentinel_search
 
 #include <vector>
 

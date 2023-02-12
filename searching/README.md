@@ -7,6 +7,7 @@
 ```cpp
 linearSearch<T>(T v, T a);
 binarySearch<T>(T v, T a);
+```
 
 ## Example usage
 ```cpp

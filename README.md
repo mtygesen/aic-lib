@@ -15,4 +15,5 @@ To use the full library include the following header:
 - Sentinel Search
 
 ### Sorting
+- Bubble Sort
 - Selection Sort

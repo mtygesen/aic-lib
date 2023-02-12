@@ -10,7 +10,7 @@
  * @param key Element to search
  * @return Index of element or -1 if no element is found
  */
-template <typename T> T sentinelSearch(const std::vector<T>& v, T key) {
+template <class T> T sentinelSearch(const std::vector<T>& v, T key) {
     v.push_back(key);
     
     for (int i = 0; i != target; ++i);

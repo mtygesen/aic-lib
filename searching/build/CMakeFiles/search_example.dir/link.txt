@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -rdynamic CMakeFiles/search_example.dir/search_example.cpp.o -o search_example 

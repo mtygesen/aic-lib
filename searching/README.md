@@ -14,7 +14,7 @@ binarySearch<T>(v, x);
 
 ## Example usage
 ```cpp
-#include "searching.hpp"
+#include "searching/searching.hpp"
 
 int main() {
 

@@ -5,12 +5,12 @@
 
 ## Functions
 ```cpp
-linearSearch<T>(v, x);
-binarySearch<T>(v, x);
+linearSearch<T>(v, key);
+binarySearch<T>(v, key);
 ```
 - T = type 
 - v = vector 
-- x = element to find
+- key = element to find
 
 ## Example usage
 ```cpp

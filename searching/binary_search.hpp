@@ -7,17 +7,17 @@
  * @brief Binary Search Algorithm
  * @tparam Type of element to find
  * @param v Vector of elements
- * @param a Element to search
+ * @param x Element to search
  * @return Index of element or -1 if no element is found
  */
-template <typename T> T binarySearch(std::vector<T>& v, T a) {
+template <typename T> T binarySearch(std::vector<T>& v, T x) {
     int l = 0, r = v.size() - 1;
 
     while (l <= r) {
         int m = l + (r - 1) / 2;
 
-        if (v[m] == a) return m;
-        else if (v[m] < a) l = m + 1;
+        if (v[m] == x) return m;
+        else if (v[m] < x) l = m + 1;
         else r = m - 1;
     }
 

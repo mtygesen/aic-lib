@@ -12,10 +12,12 @@
  */
 template <class T> T sentinelSearch(const std::vector<T>& v, T key) {
     v.push_back(key);
+    int i = 0;
     
-    for (int i = 0; i != target; ++i);
+    while (v[i] != key) ++i;
 
     if (i != v.size()) return i;
+    
     return -1;
 }
 

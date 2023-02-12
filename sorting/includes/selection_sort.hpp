@@ -5,7 +5,7 @@
 #include "swap.hpp"
 
 template <class T> std::vector<T> SelectionSort(std::vector<T>& v) {
-    for (int i = 1; i < v.size() - 1; ++i) {
+    for (int i = 0; i < v.size() - 1; ++i) {
         auto min = i;
 
         for (int j = i + 1; j < v.size(); ++j) {

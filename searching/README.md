@@ -31,7 +31,7 @@ int main() {
 ```
 
 ## Benchmark
-The algorithms has been benchmarked with the Google microbenchmarking library on a computer with a overclocked Intel i7-9700K CPU @ 3.60 GHz. Each searching algorithm has been tested on a ordered list of 10 elements. Each algorithm is called 4 times to find the first, middle, last and an element that is not contained in the list.
+The algorithms has been benchmarked with the Google microbenchmarking library on a computer with a overclocked Intel i7-9700K CPU @ 3.60 GHz. Each searching algorithm has been tested on a ordered list of 10 elements. Each algorithm is called 4 times to find the first, middle, last element and an element that is not contained within the list.
 
 The result of the benchmarking is seen below:
 ```bash

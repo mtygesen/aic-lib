@@ -24,7 +24,7 @@ int main() {
 
   int key = 3;
   
-  BinarySearch<int>(v, key); // => 2
+  BinarySearch(v, key); // => 2
 
   return 0;
 }

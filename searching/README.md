@@ -5,8 +5,8 @@
 
 ## Functions
 ```cpp
-linearSearch<T>(T v, T a);
-binarySearch<T>(T v, T a);
+linearSearch<T>(v, a); // T = type, v = vector, a = value to search
+binarySearch<T>(v, a);
 ```
 
 ## Example usage

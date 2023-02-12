@@ -1,9 +1,11 @@
 # Sorting Algorithms in C++
 ## Algorithms Implemented
+- Bubble Sort
 - Selection Sort
 
 ## Functions
 ```cpp
+BubbleSort<T>(v);
 SelectionSort<T>(v);
 Swap<T>(a, b);
 ```

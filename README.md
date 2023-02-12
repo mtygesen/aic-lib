@@ -10,12 +10,3 @@ To use the full library include the following header:
 ### Searching
 - Linear Search
 - Binary Search
-
-#### Functions
-```cpp
-linearSearch<T>(v, x);
-binarySearch<T>(v, x);
-```
-T = type
-v = vector
-x = element to find

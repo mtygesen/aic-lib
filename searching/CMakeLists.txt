@@ -1,1 +1,0 @@
-add_executable(search_example search_example.cpp)

@@ -1,12 +1,14 @@
 # Searching Algorithms in C++
 ## Algorithms Implemented
-- Linear Search
 - Binary Search
+- Linear Search
+- Sentinel Search
 
 ## Functions
 ```cpp
-linearSearch<T>(v, key);
 binarySearch<T>(v, key);
+linearSearch<T>(v, key);
+sentinelSearch<T>(v, key);
 ```
 - T = type 
 - v = vector 

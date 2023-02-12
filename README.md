@@ -8,5 +8,6 @@ To use the full library include the following header:
 ```
 ## Algorithms in this Repository
 ### Searching
-- Linear Search
 - Binary Search
+- Linear Search
+- Sentinel Search

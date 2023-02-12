@@ -10,7 +10,7 @@
  * @param x Element to search
  * @return Index of element or -1 if no element is found
  */
-template <typename T> T binarySearch(std::vector<T>& v, T x) {
+template <typename T> T binarySearch(const std::vector<T>& v, T x) {
     int l = 0, r = v.size() - 1;
 
     while (l <= r) {

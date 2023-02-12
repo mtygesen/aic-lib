@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/icecoldgold773/programming-exercise/algorithms-in-cpp/searching/build",
-  "command": "/usr/bin/clang++   -g -o CMakeFiles/testing.dir/test.cpp.o -c /home/icecoldgold773/programming-exercise/algorithms-in-cpp/searching/test.cpp",
-  "file": "/home/icecoldgold773/programming-exercise/algorithms-in-cpp/searching/test.cpp"
-}
-]

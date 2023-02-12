@@ -38,7 +38,7 @@ The result of the benchmarking is seen below:
 ------------------------------------------------------------
 Benchmark                  Time             CPU   Iterations
 ------------------------------------------------------------
-BM_binarySearch         59.7 ns         59.7 ns     11583976
-BM_linearSearch         96.9 ns         96.9 ns      7378067
-BM_sentinelSearch       96.8 ns         96.8 ns      7234731
+BM_BinarySearch         59.7 ns         59.7 ns     11583976
+BM_LinearSearch         96.9 ns         96.9 ns      7378067
+BM_SentinelSearch       96.8 ns         96.8 ns      7234731
 ```

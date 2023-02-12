@@ -1,6 +1,6 @@
 # Searching Algorithms in C++
 ## Algorithms Implemented
-- Linear Search
+- Linear Search \omega 
 - Binary Search
 
 ## Functions

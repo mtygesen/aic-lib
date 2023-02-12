@@ -11,9 +11,10 @@
  * @return Index of element or -1 if no element is found
  */
 template <typename T> T linearSearch(const std::vector<T>& v, T key) {
-	for (auto i = 0; i < v.size(); ++i) {
+	for (int i = 0; i < v.size(); ++i) {
 		if (v[i] == key) return i;
 	}
+	
 	return -1;
 }
 

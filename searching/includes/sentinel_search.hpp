@@ -13,7 +13,7 @@
 template <typename T> T sentinelSearch(const std::vector<T>& v, T key) {
     v.push_back(key);
     
-    for (auto i = 0; i != target; ++i);
+    for (int i = 0; i != target; ++i);
 
     if (i != v.size()) return i;
     return -1;

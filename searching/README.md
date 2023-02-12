@@ -14,7 +14,7 @@ SentinelSearch<T>(v, key);
 - v = vector 
 - key = element to find
 
-## Example usage
+## Example Usage
 ```cpp
 #include "searching/searching.hpp"
 

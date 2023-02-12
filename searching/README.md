@@ -3,6 +3,11 @@
 - Linear Search
 - Binary Search
 
+## Functions
+```cpp
+linearSearch<T>(T v, T a);
+binarySearch<T>(T v, T a);
+
 ## Example usage
 ```cpp
 #include "searching.h"

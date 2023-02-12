@@ -5,7 +5,7 @@
 
 /**
  * @brief Linear Search Algorithm
- * @tparam Type of element to find
+ * @tparam T Type of element to find
  * @param v Vector of elements
  * @param key Element to search
  * @return Index of element or -1 if no element is found

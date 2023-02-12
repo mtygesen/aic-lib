@@ -4,6 +4,11 @@
 #include <vector>
 #include <algorithm>
 
+/**
+ * @brief Bubble Sort Algorithm
+ * @tparam T Type of the vector
+ * @param v Mutates input vector
+ */
 template <class T> void BubbleSort(std::vector<T>& v) {
     bool flag;
 

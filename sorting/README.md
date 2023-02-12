@@ -5,6 +5,7 @@
 ## Functions
 ```cpp
 SelectionSort<T>(v);
+Swap<T>(a, b);
 ```
 - T = type
 - v = vector

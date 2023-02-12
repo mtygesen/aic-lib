@@ -13,3 +13,6 @@ To use the full library include the following header:
 - Binary Search
 - Linear Search
 - Sentinel Search
+
+### Sorting
+- Selection Sort

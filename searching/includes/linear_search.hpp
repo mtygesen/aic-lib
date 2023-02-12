@@ -1,5 +1,5 @@
-#ifndef linear_search
-#define linear_search
+#ifndef aic_linear_search
+#define aic_linear_search
 
 #include <vector>
 

@@ -1,5 +1,5 @@
-#ifndef binary_search
-#define binary_search
+#ifndef aic_binary_search
+#define aic_binary_search
 
 #include <vector>
 

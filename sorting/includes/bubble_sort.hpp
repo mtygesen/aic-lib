@@ -1,5 +1,5 @@
-#ifndef bubble_sort
-#define bubble_sort
+#ifndef aic_bubble_sort
+#define aic_bubble_sort
 
 #include <vector>
 #include <algorithm>

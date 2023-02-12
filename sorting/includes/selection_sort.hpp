@@ -1,5 +1,5 @@
-#ifndef selection_sort
-#define selection_sort
+#ifndef aic_selection_sort
+#define aic_selection_sort
 
 #include <vector>
 #include <algorithm>

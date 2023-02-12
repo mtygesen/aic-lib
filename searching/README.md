@@ -6,9 +6,9 @@
 
 ## Functions
 ```cpp
-binarySearch<T>(v, key);
-linearSearch<T>(v, key);
-sentinelSearch<T>(v, key);
+BinarySearch<T>(v, key);
+BinearSearch<T>(v, key);
+SentinelSearch<T>(v, key);
 ```
 - T = type 
 - v = vector 
@@ -20,11 +20,11 @@ sentinelSearch<T>(v, key);
 
 int main() {
 
-  vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8};
+  std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8};
 
-  int value = 3;
+  int key = 3;
   
-  binarySearch<int>(vec, value); // => 2
+  BinarySearch<int>(v, key); // => 2
 
   return 0;
 }

@@ -10,7 +10,7 @@ binarySearch<T>(v, x);
 ```
 - T = type 
 - v = vector 
-- x = value to search
+- x = element to find
 
 ## Example usage
 ```cpp

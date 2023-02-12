@@ -7,7 +7,7 @@
 ## Functions
 ```cpp
 BinarySearch<T>(v, key);
-BinearSearch<T>(v, key);
+LinearSearch<T>(v, key);
 SentinelSearch<T>(v, key);
 ```
 - T = type 

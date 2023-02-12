@@ -15,7 +15,7 @@ template <class T> void SelectionSort(std::vector<T>& v) {
         }
 
         if (min != i) {
-            Swap(&arr[min], &arr[i]);
+            Swap(&v[min], &v[i]);
         }
     }
 }

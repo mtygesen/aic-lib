@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/icecoldgold773/algorithms-in-cpp/build/sorting",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/main.dir/main.cpp.o -c /home/icecoldgold773/algorithms-in-cpp/sorting/main.cpp",
+  "file": "/home/icecoldgold773/algorithms-in-cpp/sorting/main.cpp"
+}
+]

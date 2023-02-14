@@ -2,12 +2,14 @@
 ## Algorithms Implemented
 - Bubble Sort
 - Insertion Sort
+- Merge Sort
 - Selection Sort
 
 ## Functions
 ```cpp
 BubbleSort<T>(v);
 InsertionSort<T>(v);
+MergeSort<T>();
 SelectionSort<T>(v);
 ```
 - T = type

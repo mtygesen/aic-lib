@@ -7,7 +7,7 @@
 /**
  * @brief Selection Sort Algorithm
  * @tparam T Type of the vector
- * @param v Mutates input vector
+ * @param v Permutates input vector
  */
 template <class T> void SelectionSort(std::vector<T>& v) {
     for (int i = 0; i < v.size() - 1; ++i) {

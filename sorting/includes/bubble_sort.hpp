@@ -7,7 +7,7 @@
 /**
  * @brief Bubble Sort Algorithm
  * @tparam T Type of the vector
- * @param v Mutates input vector
+ * @param v Permutates input vector
  */
 template <class T> void BubbleSort(std::vector<T>& v) {
     for (int i = 1; i < v.size(); ++i) {

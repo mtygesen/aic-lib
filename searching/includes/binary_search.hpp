@@ -4,7 +4,7 @@
 #include <vector>
 
 /**
- * @brief Binary Search Algorithm
+ * @brief Binary search algorithm
  * @tparam Type of element to find
  * @param v Vector of elements
  * @param key Element to search

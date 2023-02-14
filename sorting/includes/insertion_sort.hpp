@@ -5,7 +5,7 @@
 #include <algorithm>
 
 /**
- * @brief Insertion Sort Algorithm
+ * @brief Insertion sort algorithm
  * @tparam T Type of the vector
  * @param v Permutates input vector
  */

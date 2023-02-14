@@ -4,7 +4,7 @@
 #include <vector>
 
 /**
- * @brief Sentinel Search Algorithm
+ * @brief Sentinel search algorithm
  * @tparam Type of element to find
  * @param v Vector of elements
  * @param key Element to search

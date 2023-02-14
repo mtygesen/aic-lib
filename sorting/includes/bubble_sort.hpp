@@ -5,7 +5,7 @@
 #include <algorithm>
 
 /**
- * @brief Bubble Sort Algorithm
+ * @brief Bubble sort algorithm
  * @tparam T Type of the vector
  * @param v Permutates input vector
  */

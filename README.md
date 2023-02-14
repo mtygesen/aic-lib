@@ -16,4 +16,5 @@ To use the full library include the following header:
 
 ### Sorting
 - Bubble Sort
+- Insertion Sort
 - Selection Sort

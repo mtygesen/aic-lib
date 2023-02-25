@@ -9,7 +9,7 @@
  * @tparam T Type of the vector
  * @param v Permutates input vector
  */
-template <class T> void SelectionSort(std::vector<T>& v) {
+template <class T> inline void SelectionSort(std::vector<T>& v) {
     for (int i = 0; i < v.size() - 1; ++i) {
         int min = i;
 

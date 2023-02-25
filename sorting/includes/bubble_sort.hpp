@@ -9,7 +9,7 @@
  * @tparam T Type of the vector
  * @param v Permutates input vector
  */
-template <class T> void BubbleSort(std::vector<T>& v) {
+template <class T> inline void BubbleSort(std::vector<T>& v) {
     for (int i = 1; i < v.size(); ++i) {
 
         bool flag = false;

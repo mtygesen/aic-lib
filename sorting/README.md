@@ -9,7 +9,7 @@
 ```cpp
 BubbleSort<T>(v);
 InsertionSort<T>(v);
-MergeSort<T>();
+MergeSort<T>(v);
 SelectionSort<T>(v);
 ```
 - T = type

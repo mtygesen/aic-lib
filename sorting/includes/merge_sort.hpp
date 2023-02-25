@@ -54,7 +54,8 @@ template <class T> inline void Merge(std::vector<T>& v, int l, int m, int r) {
         if (lVec[x] <= rVec[y]) {
             v[z] = lVec[x];
             ++x;
-        } else {
+        } 
+        else {
             v[z] = rVec[y];
             ++y;
         }

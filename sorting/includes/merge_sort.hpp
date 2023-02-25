@@ -75,5 +75,4 @@ template <class T> inline void Merge(std::vector<T>& v, int l, int m, int r) {
     }
 }
 
-
 #endif

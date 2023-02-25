@@ -3,6 +3,7 @@
 
 #include "includes/bubble_sort.hpp"
 #include "includes/insertion_sort.hpp"
+#include "includes/merge_sort.hpp"
 #include "includes/selection_sort.hpp"
 
 #endif

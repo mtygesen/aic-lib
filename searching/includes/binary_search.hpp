@@ -10,7 +10,7 @@
  * @param key Element to search
  * @return Index of element or -1 if no element is found
  */
-template <class T> inline T BinarySearch(const std::vector<T>& v, T key) {
+template <class T> inline int BinarySearch(const std::vector<T>& v, T key) {
     int l = 0, r = v.size() - 1;
 
     while (l <= r) {

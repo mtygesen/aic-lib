@@ -1,5 +1,5 @@
 # Sorting Algorithms in C++
-All the sorting algorithms works for all data types.
+All the sorting algorithms work for all data types.
 
 
 ## Algorithms Implemented

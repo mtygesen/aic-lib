@@ -1,5 +1,5 @@
 # Searching Algorithms in C++
-All the searching algorithms works for all data types.
+All the search algorithms work for all data types.
 
 
 ## Algorithms Implemented

@@ -1,5 +1,5 @@
 # Algorithms in C++
-![CTest](https://github.com/icecoldgold773/algorithms-in-cpp/actions/workflows/cmake-tests.yml/badge.svg?branch=main?event=pull-request)
+![CTest](https://github.com/icecoldgold773/algorithms-in-cpp/actions/workflows/cmake-tests.yml/badge.svg?branch=main)
 
 ## General
 The point of this repository is to get a better knowledge of algorithms, and more advanced c++ concepts. Additionally, this repository will also contain some algorithms that are not included in the standard c++ library, which could be useful at some point.

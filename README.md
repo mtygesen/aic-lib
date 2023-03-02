@@ -6,6 +6,8 @@ The point of this repository is to get a better knowledge of algorithms, and mor
 
 All the algorithms are implemented as a header-only library, so they are easier to use in programs.
 
+The library folder should be placed at the same destination as the source file using the header.
+
 To use the full library include the following header:
 ```cpp
 #include "algorithms-in-cpp/algo.hpp"

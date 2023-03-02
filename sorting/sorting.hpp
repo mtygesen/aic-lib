@@ -1,9 +1,9 @@
 #ifndef aic_sorting
 #define aic_sorting
 
-#include "includes/bubble_sort.hpp"
-#include "includes/insertion_sort.hpp"
-#include "includes/merge_sort.hpp"
-#include "includes/selection_sort.hpp"
+#include "src/bubble_sort.hpp"
+#include "src/insertion_sort.hpp"
+#include "src/merge_sort.hpp"
+#include "src/selection_sort.hpp"
 
 #endif

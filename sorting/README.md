@@ -1,4 +1,7 @@
 # Sorting Algorithms in C++
+All the sorting algorithms works for all data types.
+
+
 ## Algorithms Implemented
 - Bubble Sort
 - Insertion Sort

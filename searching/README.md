@@ -1,4 +1,7 @@
 # Searching Algorithms in C++
+All the searching algorithms works for all data types.
+
+
 ## Algorithms Implemented
 - Binary Search
 - Linear Search

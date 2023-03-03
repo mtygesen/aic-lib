@@ -1,24 +1,28 @@
 # Sorting Algorithms in C++
+
 All the sorting algorithms work for all data types.
 
-
 ## Algorithms Implemented
+
 - Bubble Sort
 - Insertion Sort
 - Merge Sort
 - Selection Sort
 
 ## Functions
+
 ```cpp
 BubbleSort<T>(v);
 InsertionSort<T>(v);
 MergeSort<T>(v);
 SelectionSort<T>(v);
 ```
+
 - T = type
 - v = vector
 
 ## Example Usage
+
 ```cpp
 #include "algorithms-in-cpp/sorting/sorting.hpp"
 
@@ -31,4 +35,3 @@ int main() {
   return 0;
 }
 ```
-## Benchmark

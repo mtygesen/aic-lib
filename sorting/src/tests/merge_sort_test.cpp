@@ -1,40 +1,13 @@
-#include <cassert>
-#include <string>
+#include "sort_test_template.hpp"
 #include "../merge_sort.hpp"
 
 int main() {
-    // Test 1: int
-    std::vector<int> intVector = {5, 4, 3, 2, 1};
-    std::vector<int> intVectorTarget = {1, 2, 3, 4, 5};
-    MergeSort(intVector);
-    assert(intVector == intVectorTarget);
+    MergeSort(intVector); // Test 1: int
+    MergeSort(doubleVector); // Test 2: double
+    MergeSort(stringVector); // Test 3: string
+    MergeSort(charVector); // Test 4: char
+    MergeSort(boolVector); // Test 5: bool
+    MergeSort(intVector2); // Test 6: empty vector
 
-    // Test 2: double
-    std::vector<double> doubleVector = {5.5, 4.4, 3.3, 2.2, 1.1};
-    std::vector<double> doubleVectorTarget = {1.1, 2.2, 3.3, 4.4, 5.5};
-    MergeSort(doubleVector);
-    assert(doubleVector == doubleVectorTarget);
-
-    // Test 3: string
-    std::vector<std::string> stringVector = {"e", "d", "c", "b", "a"};
-    std::vector<std::string> stringVectorTarget = {"a", "b", "c", "d", "e"};
-    MergeSort(stringVector);
-    assert(stringVector == stringVectorTarget);
-
-    // Test 4: char
-    std::vector<char> charVector = {'e', 'd', 'c', 'b', 'a'};
-    std::vector<char> charVectorTarget = {'a', 'b', 'c', 'd', 'e'};
-    MergeSort(charVector);
-    assert(charVector == charVectorTarget);
-
-    // Test 5: bool
-    std::vector<bool> boolVector = {true, false};
-    std::vector<bool> boolVectorTarget = {false, true};
-    MergeSort(boolVector);
-
-    // Test 6: empty vector
-    std::vector<int> intVector2 = {};
-    std::vector<int> intVectorTarget2 = {};
-    MergeSort(intVector2);
-    assert(intVector2 == intVectorTarget2);
+    SortAssert(); // Run asserts
 }

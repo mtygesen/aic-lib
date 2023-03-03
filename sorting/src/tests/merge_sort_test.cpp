@@ -1,5 +1,5 @@
 #include <cassert>
-#include <string>gi
+#include <string>
 #include "../merge_sort.hpp"
 
 int main() {

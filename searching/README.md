@@ -1,23 +1,27 @@
 # Searching Algorithms in C++
+
 All the search algorithms work for all data types.
 
+## Algorithms
 
-## Algorithms Implemented
 - Binary Search
 - Linear Search
 - Sentinel Search
 
 ## Functions
+
 ```cpp
 BinarySearch<T>(v, key);
 LinearSearch<T>(v, key);
 SentinelSearch<T>(v, key);
 ```
-- T = type 
-- v = vector 
+
+- T = type  
+- v = vector  
 - key = element to find
 
 ## Example Usage
+
 ```cpp
 #include "algorithms-in-cpp/searching/searching.hpp"
 
@@ -34,9 +38,11 @@ int main() {
 ```
 
 ## Benchmark
+
 The algorithms have been benchmarked with the Google micro benchmarking library on a computer with an overclocked Intel i7-9700K CPU @ 3.60 GHz. Each search algorithm has been tested on an ordered list of 10 elements. Each algorithm is called 4 times to find the first, middle, and last element as well as an element that is not contained within the list.
 
 The result of the benchmarking is seen below:
+
 ```bash
 ------------------------------------------------------------
 Benchmark                  Time             CPU   Iterations

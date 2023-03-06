@@ -1,8 +1,8 @@
 #ifndef aic_selection_sort
 #define aic_selection_sort
 
-#include <vector>
 #include <algorithm>
+#include <vector>
 
 /**
  * @brief Selection sort algorithm

@@ -1,8 +1,8 @@
 #ifndef aic_insertion_sort
 #define aic_insertion_sort
 
-#include <vector>
 #include <algorithm>
+#include <vector>
 
 /**
  * @brief Insertion sort algorithm

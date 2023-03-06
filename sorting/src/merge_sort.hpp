@@ -1,8 +1,8 @@
 #ifndef aic_merge_sort
 #define aic_merge_sort
 
-#include <vector>
 #include <algorithm>
+#include <vector>
 
 /**
  * @brief Merge two sorted vectors

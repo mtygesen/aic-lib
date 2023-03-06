@@ -5,6 +5,7 @@ All the sorting algorithms work for all data types.
 ## Algorithms Implemented
 
 - Bubble Sort
+- Heap Sort
 - Insertion Sort
 - Merge Sort
 - Selection Sort
@@ -13,6 +14,7 @@ All the sorting algorithms work for all data types.
 
 ```cpp
 BubbleSort<T>(v);
+HeapSort<T>(v);
 InsertionSort<T>(v);
 MergeSort<T>(v);
 SelectionSort<T>(v);
@@ -34,4 +36,6 @@ int main() {
 
   return 0;
 }
-```
+``
+
+## Benchmark

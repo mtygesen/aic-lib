@@ -27,6 +27,7 @@ To use the full library include the following header:
 ### Sorting
 
 - Bubble Sort
+- Heap Sort
 - Insertion Sort
 - Merge Sort
 - Selection Sort

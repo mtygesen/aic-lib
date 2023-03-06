@@ -1,8 +1,8 @@
 #ifndef aic_bubble_sort
 #define aic_bubble_sort
 
-#include <vector>
 #include <algorithm>
+#include <vector>
 
 /**
  * @brief Bubble sort algorithm

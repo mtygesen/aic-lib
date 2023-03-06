@@ -5,26 +5,24 @@
 #include <vector>
 
 /**
- * @brief Max heapify algorithm
+ * @brief Min heapify algorithm
  * 
  * @tparam T type of the vector
  * @param v vector to be permutated
  * @param i index to heapify
- * @param heapSize size of the heap (default: v.size())
+ * @param n size of the heap
  */
-template <class T> void MaxHeapify(std::vector<T>& v, int i, int heapSize = -1) {
-    if (heapSize == -1) heapSize = v.size();
-
+template <class T> inline void MinHeapify (std::vector<T>& v, int i, int n) {
     int l = 2 * i + 1, r = 2 * i + 2;
 
-    int largest = i;
+    int smallest = i;
 
-    if (l < heapSize && v[l] > v[i]) largest = l; 
-    if (r < heapSize && v[r] > v[largest]) largest = r;
+    if (l < n && v[l] < v[smallest]) smallest = l; 
+    if (r < n && v[r] < v[smallest]) smallest = r;
 
-    if (largest != i) {
-        std::swap(v[i], v[largest]);
-        MaxHeapify(v, largest);
+    if (smallest != i) {
+        std::swap(v[i], v[smallest]);
+        MinHeapify(v, smallest, v.size());
     }
 }
 
@@ -33,10 +31,11 @@ template <class T> void MaxHeapify(std::vector<T>& v, int i, int heapSize = -1) 
  * 
  * @tparam T type of the vector
  * @param v vector to be permutated
+ * @param n size of the heap
  */
-template <class T> void BuildMaxHeap(std::vector<T>& v) {
+template <class T> inline void BuildMinHeap(std::vector<T>& v, int n) {
     for (int i = v.size() / 2 - 1; i >= 0; --i) {
-        MaxHeapify(v, i);
+        MinHeapify(v, i, n);
     }
 }
 
@@ -46,12 +45,12 @@ template <class T> void BuildMaxHeap(std::vector<T>& v) {
  * @tparam T type of the vector
  * @param v vector to be permutated
  */
-template <class T> void HeapSort(std::vector<T>& v) {
-    BuildMaxHeap(v);
+template <class T> inline void HeapSort(std::vector<T>& v) {
+    BuildMinHeap(v, v.size());
 
-    for (int i = v.size() - 1; i >= 1; --i) {
+    for (int i = v.size() - 1; i >= 0; --i) {
         std::swap(v[0], v[i]);
-        MaxHeapify(v, 0, i);
+        MinHeapify(v, 0, i);
     }
 }
 

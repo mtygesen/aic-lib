@@ -1,4 +1,5 @@
 add_test(NAME bubble_sort_test COMMAND bubble_sort_test)
+add_test(NAME counting_sort_test COMMAND counting_sort_test)
 add_test(NAME heap_sort_test COMMAND heap_sort_test)
 add_test(NAME insertion_sort_test COMMAND insertion_sort_test)
 add_test(NAME merge_sort_test COMMAND merge_sort_test)
@@ -6,6 +7,7 @@ add_test(NAME quick_sort_test COMMAND quick_sort_test)
 add_test(NAME selection_sort_test COMMAND selection_sort_test)
 
 add_executable(bubble_sort_test bubble_sort_test.cpp)
+add_executable(counting_sort_test counting_sort_test.cpp)
 add_executable(heap_sort_test heap_sort_test.cpp)
 add_executable(insertion_sort_test insertion_sort_test.cpp)
 add_executable(merge_sort_test merge_sort_test.cpp)

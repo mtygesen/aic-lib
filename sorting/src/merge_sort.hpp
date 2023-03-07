@@ -37,14 +37,12 @@ template <class T> inline void Merge(std::vector<T>& v, int l, int m, int r) {
 
     while (x < n1) {
         v[z] = lVec[x];
-        ++x;
-        ++z;
+        ++x, ++z;
     }
 
     while (y < n2) {
         v[z] = rVec[y];
-        ++y;
-        ++z;
+        ++y, ++z
     }
 }
 

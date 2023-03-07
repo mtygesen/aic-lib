@@ -1,13 +1,13 @@
-//#include "sort_test_template.hpp"
+#include "sort_test_template.hpp"
 #include "../heap_sort.hpp"
 
-#include <iostream>
 int main() {
-
-    std::vector<int> intVector = {4, 17, 3, 12, 9, 6};
     HeapSort(intVector); // Test 1: int
-    
-    for (auto v : intVector) {
-        std::cout << v << " ";
-    }
+    HeapSort(doubleVector); // Test 2: double
+    HeapSort(stringVector); // Test 3: string
+    HeapSort(charVector); // Test 4: char
+    HeapSort(boolVector); // Test 5: bool
+    HeapSort(intVector2); // Test 6: empty vector
+
+    SortAssert(); // Run asserts
 }

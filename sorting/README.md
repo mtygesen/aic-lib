@@ -8,6 +8,7 @@ All the sorting algorithms work for all data types.
 - Heap Sort
 - Insertion Sort
 - Merge Sort
+- Quick Sort
 - Selection Sort
 
 ## Functions
@@ -17,6 +18,7 @@ BubbleSort<T>(v);
 HeapSort<T>(v);
 InsertionSort<T>(v);
 MergeSort<T>(v);
+QuickSort<T>(v);
 SelectionSort<T>(v);
 ```
 

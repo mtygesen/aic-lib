@@ -30,4 +30,5 @@ To use the full library include the following header:
 - Heap Sort
 - Insertion Sort
 - Merge Sort
+- Quick Sort
 - Selection Sort

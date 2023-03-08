@@ -25,15 +25,15 @@ template <class T> inline void CountingSort(std::vector<T>& v) {
     std::vector<T> b(v.size());
 
     for (int j = 0; j < v.size(); ++j) {
-        int x = v[j];
+        int x = v[j + 1];
         ++c[x];
     }
 
     for (int i = 0; i < k; ++i) c[i] += c[i - 1];
 
-    for (int j = v.size(); j > 0; --j) {
-        b[c[j]] = j;
-        --c[j];
+    for (int j = v.size() - 1; j >= 0; --j) {
+        b[c[v[j]]] = v[j];
+        --c[v[j]];
     }
 
     v = b;

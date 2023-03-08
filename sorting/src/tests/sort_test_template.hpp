@@ -41,4 +41,15 @@ inline void SortAssert() {
     assert(intVector2 == intVectorTarget2);
 }
 
+/**
+ * @brief Asserts sorting for all normal data types except strings.
+ */
+inline void SortAssert2() {
+    assert(intVector == intVectorTarget);
+    assert(doubleVector == doubleVectorTarget);
+    assert(charVector == charVectorTarget);
+    assert(boolVector == boolVectorTarget);
+    assert(intVector2 == intVectorTarget2);
+}
+
 #endif

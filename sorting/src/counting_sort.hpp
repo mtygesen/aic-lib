@@ -2,6 +2,8 @@
 #define aic_counting_sort
 
 #include <algorithm>
+#include <cmath>
+#include <string>
 #include <vector>
 
 /**
@@ -11,7 +13,13 @@
  * @param v vector to be sorted
  */
 template <class T> inline void CountingSort(std::vector<T>& v) {
-    int k = std::max_element(v.begin(), v.end()) - std::min_element(v.begin(), v.end()) + 1;
+    static_assert(!std::is_same<T,std::string>::value,"std::string is not accepted");
+
+    if (v.empty()) return;
+
+    const auto [min, max] = std::minmax_element(v.begin(), v.end());
+
+    int k = std::ceil(*max - *min + 1);
 
     std::vector<int> c(k);
     std::vector<T> b(v.size());

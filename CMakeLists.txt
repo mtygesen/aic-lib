@@ -10,3 +10,5 @@ include(CPack)
 
 add_subdirectory(searching/src/tests)
 add_subdirectory(sorting/src/tests)
+
+set (CMAKE_CXX_STANDARD 23)

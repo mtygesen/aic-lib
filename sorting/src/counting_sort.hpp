@@ -11,8 +11,8 @@
  * @brief Counting sort algorithm for stable sorting in linear time. 
  * This function does not accept strings, and should not be used if the range of values is larger than the size of the vector.
  * 
- * @tparam T type of elements in vector
- * @param v vector to be sorted
+ * @tparam T type of elements in vector.
+ * @param v vector to be sorted.
  */
 template <class T> inline void CountingSort(std::vector<T>& v) {
     if (v.size() < 2) return;

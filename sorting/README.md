@@ -11,6 +11,7 @@ All the sorting algorithms work for most data types.
 - Intro Sort
 - Merge Sort
 - Quick Sort
+- Radix Sort
 - Selection Sort
 
 ## Functions
@@ -23,6 +24,7 @@ InsertionSort<T>(v);
 IntroSort<T>(v);
 MergeSort<T>(v);
 QuickSort<T>(v);
+RadixSort<T>(v);
 SelectionSort<T>(v);
 ```
 

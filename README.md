@@ -33,4 +33,5 @@ To use the full library include the following header:
 - Intro Sort
 - Merge Sort
 - Quick Sort
+- Radix Sort
 - Selection Sort

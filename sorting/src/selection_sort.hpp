@@ -10,6 +10,8 @@
  * @param v Permutates input vector
  */
 template <class T> inline void SelectionSort(std::vector<T>& v) {
+    if (v.size() < 2) return;
+
     for (int i = 0; i < v.size(); ++i) {
         int min = i;
 

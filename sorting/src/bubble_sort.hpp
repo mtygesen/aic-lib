@@ -10,6 +10,8 @@
  * @param v Permutates input vector
  */
 template <class T> inline void BubbleSort(std::vector<T>& v) {
+    if (v.size() < 2) return;
+
     for (int i = 1; i < v.size(); ++i) {
 
         bool flag = false;

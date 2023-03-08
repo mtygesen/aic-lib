@@ -53,6 +53,7 @@ template <class T> inline void _QuickSort(std::vector<T>& v, int l, int r) {
  * @param v vector to be sorted
  */
 template <class T> inline void QuickSort(std::vector<T>& v) {
+    if (v.size() < 2) return;
     _QuickSort(v, 0, v.size() - 1);
 }
 

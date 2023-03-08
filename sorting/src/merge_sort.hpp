@@ -71,6 +71,7 @@ template <class T> inline void _MergeSort(std::vector<T>& v, int l, int r) {
  * @param v Permutates input vector
  */
 template <class T> inline void MergeSort(std::vector<T>& v) {
+    if (v.size() < 2) return;
     _MergeSort(v, 0, v.size() - 1);
 }
 

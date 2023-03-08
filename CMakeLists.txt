@@ -12,3 +12,4 @@ add_subdirectory(searching/src/tests)
 add_subdirectory(sorting/src/tests)
 
 set (CMAKE_CXX_STANDARD 23)
+add_compile_options(-Wall -Wextra -Wpedantic -Werror -Wc++17-extensions)

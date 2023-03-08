@@ -45,6 +45,8 @@ template <class T> inline void BuildMaxHeap(std::vector<T>& v) {
  * @param v vector to be permutated
  */
 template <class T> inline void HeapSort(std::vector<T>& v) {
+    if (v.size() < 2) return;
+
     BuildMaxHeap(v);
 
     for (int i = v.size() - 1; i >= 0; --i) {

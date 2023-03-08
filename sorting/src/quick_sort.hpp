@@ -5,14 +5,14 @@
 #include <vector>
 
 /**
- * @brief Partition the vector v in place
+ * @brief Partition the vector v in place.
  * 
- * @tparam T type of the vector
- * @param v vector to be partitioned
- * @param l left-most index
- * @param r right-most index
+ * @tparam T type of the vector.
+ * @param v vector to be partitioned.
+ * @param l left-most index.
+ * @param r right-most index.
  * 
- * @return index of the pivot
+ * @return index of the pivot.
  */
 template <class T> inline int Partition(std::vector<T>& v, int l, int r) {
     int i = l - 1;
@@ -30,12 +30,12 @@ template <class T> inline int Partition(std::vector<T>& v, int l, int r) {
 }
 
 /**
- * @brief Quick sort the vector v in place
+ * @brief Quick sort the vector v in place.
  * 
- * @tparam T type of the vector
- * @param v vector to be sorted
- * @param l left-most index
- * @param r right-most index
+ * @tparam T type of the vector.
+ * @param v vector to be sorted.
+ * @param l left-most index.
+ * @param r right-most index.
  */
 template <class T> inline void _QuickSort(std::vector<T>& v, int l, int r) {
     if (l < r) {
@@ -47,10 +47,10 @@ template <class T> inline void _QuickSort(std::vector<T>& v, int l, int r) {
 }
 
 /**
- * @brief Quick sort wrapper for easier calling
+ * @brief Quick sort wrapper for easier calling.
  * 
- * @tparam T type of the vector
- * @param v vector to be sorted
+ * @tparam T type of the vector.
+ * @param v vector to be sorted.
  */
 template <class T> inline void QuickSort(std::vector<T>& v) {
     if (v.size() < 2) return;

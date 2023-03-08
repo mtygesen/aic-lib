@@ -4,11 +4,11 @@
 #include <vector>
 
 /**
- * @brief Binary search algorithm
- * @tparam Type of element to find
- * @param v Vector of elements
- * @param key Element to search
- * @return Index of element or -1 if no element is found
+ * @brief Binary search algorithm.
+ * @tparam Type of element to find.
+ * @param v Vector of elements.
+ * @param key Element to search.
+ * @return Index of element or -1 if no element is found.
  */
 template <class T> inline int BinarySearch(const std::vector<T>& v, T key) {
     int l = 0, r = v.size() - 1;

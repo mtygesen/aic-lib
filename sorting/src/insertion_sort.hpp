@@ -5,9 +5,9 @@
 #include <vector>
 
 /**
- * @brief Insertion sort algorithm
- * @tparam T Type of the vector
- * @param v Permutates input vector
+ * @brief Insertion sort algorithm.
+ * @tparam T Type of the vector.
+ * @param v Permutates input vector.
  */
 template <class T> inline void InsertionSort(std::vector<T>& v) {
     if (v.size() < 2) return;

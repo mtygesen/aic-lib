@@ -5,9 +5,9 @@
 #include <vector>
 
 /**
- * @brief Bubble sort algorithm
- * @tparam T Type of the vector
- * @param v Permutates input vector
+ * @brief Bubble sort algorithm.
+ * @tparam T Type of the vector.
+ * @param v Permutates input vector.
  */
 template <class T> inline void BubbleSort(std::vector<T>& v) {
     if (v.size() < 2) return;

@@ -5,13 +5,13 @@
 #include <vector>
 
 /**
- * @brief Merge two sorted vectors
+ * @brief Merge two sorted vectors.
  * 
- * @tparam T Type of vector
- * @param v Permutates input vector
- * @param l Index of leftmost element
- * @param m Index of middle floor element
- * @param r Index of rightmost element
+ * @tparam T Type of vector.
+ * @param v Permutates input vector.
+ * @param l Index of leftmost element.
+ * @param m Index of middle floor element.
+ * @param r Index of rightmost element.
  */
 template <class T> inline void Merge(std::vector<T>& v, int l, int m, int r) {
     int n1 = m - l + 1, n2 = r - m;
@@ -47,12 +47,12 @@ template <class T> inline void Merge(std::vector<T>& v, int l, int m, int r) {
 }
 
 /**
- * @brief Merge sort algorithm
+ * @brief Merge sort algorithm.
  * 
- * @tparam T Type of the vector
- * @param v Permutates input vector
- * @param l Index of leftmost element
- * @param r Index of rightmost element
+ * @tparam T Type of the vector.
+ * @param v Permutates input vector.
+ * @param l Index of leftmost element.
+ * @param r Index of rightmost element.
  */
 template <class T> inline void _MergeSort(std::vector<T>& v, int l, int r) {
     if (l < r) {
@@ -66,9 +66,9 @@ template <class T> inline void _MergeSort(std::vector<T>& v, int l, int r) {
 }
 
 /**
- * @brief Merge sort wrapper for easier calling
- * @tparam T Type of the vector
- * @param v Permutates input vector
+ * @brief Merge sort wrapper for easier calling.
+ * @tparam T Type of the vector.
+ * @param v Permutates input vector.
  */
 template <class T> inline void MergeSort(std::vector<T>& v) {
     if (v.size() < 2) return;

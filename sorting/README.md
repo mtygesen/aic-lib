@@ -1,6 +1,6 @@
 # Sorting Algorithms in C++
 
-All the sorting algorithms works for most data types.
+All the sorting algorithms work for most data types.
 
 ## Algorithms Implemented
 
@@ -8,6 +8,7 @@ All the sorting algorithms works for most data types.
 - Count Sort
 - Heap Sort
 - Insertion Sort
+- Intro Sort
 - Merge Sort
 - Quick Sort
 - Selection Sort
@@ -19,6 +20,7 @@ BubbleSort<T>(v);
 CountSort<T>(v)
 HeapSort<T>(v);
 InsertionSort<T>(v);
+IntroSort<T>(v);
 MergeSort<T>(v);
 QuickSort<T>(v);
 SelectionSort<T>(v);

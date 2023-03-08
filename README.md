@@ -30,6 +30,7 @@ To use the full library include the following header:
 - Count Sort
 - Heap Sort
 - Insertion Sort
+- Intro Sort
 - Merge Sort
 - Quick Sort
 - Selection Sort

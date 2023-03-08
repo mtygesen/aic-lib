@@ -14,10 +14,7 @@ template <class T> inline void _IntroSort(std::vector<T>& v, int maxDepth) {
 
     if (n < 16) InsertionSort(v);
     else if (!maxDepth) HeapSort(v);
-    else {
-        int pi = Partition(v, 0, n - 1);
-        
-    }  
+    else int pi = Partition(v, 0, n - 1); 
 }
 
 template <class T> inline void IntroSort(std::vector<T>& v) {

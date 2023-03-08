@@ -13,15 +13,9 @@ template <class T> inline void InsertionSort(std::vector<T>& v) {
     if (v.size() < 2) return;
 
     for (int i = 1; i < v.size(); ++i) {
-        bool flag = false;
-
         for (int j = i - 1; j >= 0 && v[j] > v[j + 1]; --j) {
             std::swap(v[j], v[j + 1]);
-
-            flag = true;
         }
-
-        if (!flag) break;
     }
 }
 

@@ -1,0 +1,27 @@
+# Algorithms in C++
+## General
+To use the algorithms include the following header:
+
+```cpp
+#include "adic/algo.hpp"
+```
+
+## Algorithms in this Repository
+
+### Searching
+
+- Binary Search
+- Linear Search
+- Sentinel Search
+
+### Sorting
+
+- Bubble Sort
+- Count Sort
+- Heap Sort
+- Insertion Sort
+- Intro Sort
+- Merge Sort
+- Quick Sort
+- Radix Sort
+- Selection Sort

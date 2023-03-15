@@ -2,8 +2,6 @@
 #define aic_counting_sort
 
 #include <algorithm>
-#include <cmath>
-#include <iostream>
 #include <string>
 #include <vector>
 

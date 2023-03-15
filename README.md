@@ -1,6 +1,6 @@
 # Algorithms and Data Structures in C++
 
-![CTest](https://github.com/icecoldgold773/algorithms-in-cpp/actions/workflows/cmake-tests.yml/badge.svg?branch=main)
+![CTest](https://github.com/icecoldgold773/adic/actions/workflows/cmake-tests.yml/badge.svg?branch=main)
 
 ## General
 

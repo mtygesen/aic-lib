@@ -1,37 +1,17 @@
-# Algorithms in C++
+# Algorithms and Data Structures in C++
 
 ![CTest](https://github.com/icecoldgold773/algorithms-in-cpp/actions/workflows/cmake-tests.yml/badge.svg?branch=main)
 
 ## General
 
-The point of this repository is to get a better knowledge of algorithms, and more advanced c++ concepts. Additionally, this repository will also contain some algorithms that are not included in the standard c++ library, which could be useful at some point.
+This library is implemented as a header-only library, so you do not need to link any source files.
 
-All the algorithms are implemented as a header-only library, so they are easier to use in programs.
+The library includes several algorithms and data structures, including some that are not found in the standard c++ library.
 
-The library folder should be placed at the same destination as the source file using the header.
+## How to use
 
-To use the full library include the following header:
+To use the library in your project place the library folder relatively to your source file and include it with:
 
 ```cpp
-#include "algorithms-in-cpp/algo.hpp"
+#include "adic/adic.hpp"
 ```
-
-## Algorithms in this Repository
-
-### Searching
-
-- Binary Search
-- Linear Search
-- Sentinel Search
-
-### Sorting
-
-- Bubble Sort
-- Count Sort
-- Heap Sort
-- Insertion Sort
-- Intro Sort
-- Merge Sort
-- Quick Sort
-- Radix Sort
-- Selection Sort

@@ -1,5 +1,7 @@
 # Algorithms in C++
+
 ## General
+
 To use the algorithms include the following header:
 
 ```cpp

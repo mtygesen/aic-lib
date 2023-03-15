@@ -7,7 +7,3 @@ To use the data structures include the following header:
 ```
 
 ## Data Structures in this Library
-
-### Stacks
-
-- Static Stack

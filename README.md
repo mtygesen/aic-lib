@@ -6,7 +6,7 @@
 
 This library is implemented as a header-only library, so you do not need to link any source files.
 
-The library includes several algorithms and data structures, including some that is not found in the standard c++ library.
+The library includes several algorithms and data structures, including some that are not found in the standard c++ library.
 
 ## How to use
 

@@ -3,7 +3,7 @@
 To use the algorithms include the following header:
 
 ```cpp
-#include "adic/algo.hpp"
+#include "adic/aic.hpp"
 ```
 
 ## Algorithms in this Repository

@@ -6,7 +6,7 @@ To use the algorithms include the following header:
 #include "adic/aic.hpp"
 ```
 
-## Algorithms in this Repository
+## Algorithms in this Library
 
 ### Searching
 

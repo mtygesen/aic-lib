@@ -1,6 +1,6 @@
 #ifndef adic
 #define adic
 
-#include "algo/algo.hpp"
+#include "algo/aic.hpp"
 
 #endif

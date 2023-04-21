@@ -1,6 +1,7 @@
 #ifndef aic
 #define aic
 
-#include "src/algo.hpp"
+#include "searching/searching.hpp"
+#include "sorting/sorting.hpp"
 
 #endif

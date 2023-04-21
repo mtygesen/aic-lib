@@ -1,4 +1,4 @@
-# Algorithms and Data Structures in C++
+# Elementary Algorithms in C++
 
 ![CTest](https://github.com/icecoldgold773/adic/actions/workflows/cmake-tests.yml/badge.svg?branch=main)
 

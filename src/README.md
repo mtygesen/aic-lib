@@ -1,13 +1,5 @@
 # Algorithms in C++
 
-## General
-
-To use the algorithms include the following header:
-
-```cpp
-#include "adic/aic.hpp"
-```
-
 ## Algorithms in this Library
 
 ### Searching

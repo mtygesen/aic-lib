@@ -23,16 +23,8 @@ SentinelSearch<T>(v, key);
 ## Example Usage
 
 ```cpp
-#include "algorithms-in-cpp/searching/searching.hpp"
+std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8};
+int key = 3;
 
-int main() {
-
-  std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8};
-
-  int key = 3;
-  
-  BinarySearch(v, key); // => 2
-
-  return 0;
-}
+BinarySearch(v, key); // => 2
 ```

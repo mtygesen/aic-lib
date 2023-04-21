@@ -13,5 +13,5 @@ The library includes several elementary algorithms such as different searching a
 To use the library in your project place the library folder relatively to your source file and include it with:
 
 ```cpp
-#include "adic/adic.hpp"
+#include "aic-lib/aic.hpp"
 ```

@@ -1,0 +1,7 @@
+add_test(NAME binary_search_test COMMAND binary_search_test)
+add_test(NAME linear_search_test COMMAND linear_search_test)
+add_test(NAME sentinel_search_test COMMAND sentinel_search_test)
+
+add_executable(binary_search_test binary_search_test.cpp)
+add_executable(linear_search_test linear_search_test.cpp)
+add_executable(sentinel_search_test sentinel_search_test.cpp)
